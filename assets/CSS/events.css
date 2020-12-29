@@ -1,0 +1,119 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+}
+
+.row {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.jumbotron {
+    background-color: lightseagreen;
+    border: 8px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: aquamarine;
+    text-decoration: underline;
+    text-decoration-color: darkslategray;
+    color: darkslategray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://c.wallhere.com/photos/b5/e1/1920x1200_px_abstract_Andy_Gilmore_circle_geometry_Graphic_Design_pattern-777832.jpg!d);
+}
+
+.navbar-nav {
+    margin-top: 0;
+}
+
+#searchBtn {
+    background-color: teal;
+    color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.form-control {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.artist-list {
+    background-color: skyblue;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    background-color: teal;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+#name {
+    width: 100%;
+}
+
+#info {
+    background-color: transparent;
+    height: max-content;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: whitesmoke;
+}
+
+img {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+ul {
+        list-style: none;
+        max-height: 500px;
+        margin:0;
+        overflow:auto;
+        padding:0;
+        text-indent:10px;
+        margin-top: 50px;
+
+}
+
+.list-group-item {
+    background-color: orange;
+
+}
+
+.list-group-item i:hover {
+    background-color: skyblue;
+
+}
+
+#goBackBtn {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: teal;
+    color: white;
+    align-self: center;
+    margin-top: 5px;
+    margin-left: 50%;
+}
+
+h3 {
+    position: absolute;
+    top: 0px;
+}
+
+
+

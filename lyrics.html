@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/CSS/lyrics.css">
+  <title>Lyrics</title>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="lyrics.html">Lyrics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="songCharts.html">Song Charts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ytsearch.html">Music Player</a>
+      </li>
+  </ul>
+    </div>
+  </nav>
+</head>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+      <img src="assets/images/LS-Logo.png" id="LS-Logo" alt="LS-Logo">
+  </div>
+</div>
+
+<!-- header with image title, search field and search button  -->
+<body>
+  <header>
+  
+
+    <input type="text" id="title" placeholder="Enter song title..." />
+    <input type="text" id="artist" placeholder="Enter artist name..." />
+
+    <button id="button" class="btn" onclick="findLyrics()">Get Lyrics!</button>
+
+  </header>
+
+  <div id="result" class="container">
+    <p>Results</p>
+  </div>
+
+
+
+  <!-- Media Player Here -->
+  <!-- <div class="container-sm">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="video">
+          <iframe id="ytframe" src='about:blank'>"frameborder="0"></iframe>
+        </div>
+      </div>
+    </div> -->
+
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/JS/lyrics.js"></script>
+  <script src="assets/JS/player.js"></script>
+</body>
+
+</html>
